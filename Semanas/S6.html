@@ -1,0 +1,264 @@
+
+<!DOCTYPE html PUBLIC >
+
+<html lang="es">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Following part is mathjax, for latex-->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <!-- This part is for jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- This part is to load main.js -->
+    <script type="text/javascript" src="../main.js"></script>
+
+    
+
+   
+    <!-- Next part is for new coomands -->
+    <script>
+      window.MathJax = {
+        tex: {
+          macros: {
+            sen: "\\operatorname{sen}",
+            seg: ["\\overrightarrow{#1}", 1]
+          },
+          tags: "ams" /* this part is for numbered equations */
+        }
+      };
+    </script>
+
+    <!-- This part is for using single $ for latex input, instead of \(\) -->
+    <script>
+        MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+        svg: {
+            fontCache: 'global'
+        }
+    };
+    </script>
+
+    
+    <!-- This part restart counter of cards to start at n+1 -->
+    <style>
+      /* body.number-title{
+        counter-reset: sectionCounter 1 subsectioncounter ;
+      } */
+      h1.page-title{
+        counter-reset: semanaCounter 6 sectionCounter  subsectionCounter;
+      }
+    </style>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" , href="../style.css" />
+    <!-- Top Menu  -->
+    
+          
+        <header class="main-header">
+        
+          <div class="logo_superior_umar">
+          <a href="https://www.umar.mx" target="_blank"><img src="../Imagenes/umar_logo_hd.webp" alt="Logo_UMAR" width="110%" height="auto"></a>
+          </div>
+          <div class="contenedor_titulo">
+          <div class="title">Introducción a la Programación</div>
+          <div class="subtitle">Universidad del Mar, campus Huatulco</div>
+          <div class="subsubtitle">Licenciatura en Actuaría </div>
+          <!-- <div class="subsubtitle"><a href="https://www.umar.mx/web/ensenanza/licenciaturas/licenciatura_en_administracion_turistica" target="_blank">Licenciatura en Administración Turística</a> </div>    -->
+      
+          </div>
+
+      
+        </header>
+
+        <nav class="top-nav">
+          <ul>
+            <li> <a href="https://pjhh-ciencias.github.io/CPProgramacion/Home.html"> Inicio  </a> </li>
+            <li> <a href="https://pjhh-ciencias.github.io/CPProgramacion/Informacion_General.html"> Información </a> </li>
+            <li> <a href="https://pjhh-ciencias.github.io/CPProgramacion/Notas.html"> Notas  </a> </li>
+            <li> <a href="https://pjhh-ciencias.github.io/CPProgramacion/Practicas.html">Ejercicios</a> </li>
+            <li> <a href="https://pjhh-ciencias.github.io/CPProgramacion/Enlaces_externos.html"> Links </a> </li>
+          </ul>
+          </nav>
+       
+        
+        <!-- 
+          <nav class="small-nav" align=right>
+            <button onclick="myFunction()">Claro/Obscuro 
+          </nav> 
+        -->
+
+      <!-- This part is for title in tab-->
+            
+      <title>Semana 6</title>
+      </head>  
+
+
+
+    <body class="fondo-body" ><h1 class="page-title"> Semana 6 </h1>
+      
+    <h1 class="page-subtitle">Practicando en PseInt</h1> 
+
+    <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+      <p>Construye el diagrama de flujo de un algoritmo que solicite al usuario que escriba su nombre,
+        e imprima un  saludo llamándolo por su nombre. Por ejemplo:
+        <center>"¡Hola Pablo!"</center></p>
+      </div>
+
+    <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+      <p>Construye el diagrama de flujo de un algoritmo que solicite un nombre y un apellido 
+        luego imprima el nombre y el apellido juntos (separados por un espacio). Por ejemplo:
+        <center>"Pablo Hernández"</center></p>
+       </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+      <p>Construye el diagrama de flujo de un algoritmo que solicite al usuario un número entero,
+         e imprima el número siguiente al ingresado por el usuario.
+       </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+      <p>Construye el diagrama de flujo de un algoritmo que solicite al usuario un número entero,
+         e imprima el doble y el triple del número ingresado por el usuario.
+       </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+      <p>Construye el diagrama de flujo de un algoritmo que solicite al usuario un número entero,
+         e imprima el cuadrado y el cubo del número ingresado por el usuario.
+       </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+      <p>Construye el diagrama de flujo de un algoritmo que solicite al usuario la base y la altura 
+        de un rectangulo y calcule e imprima el área y el perímetro del rectangulo mediante un mensaje apropiado.
+       </p>
+    </div>
+
+      <!-- <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+        <p>Construye el diagrama de flujo de un algoritmo que solicite al usuario un número entero,
+          y determine e imprima si este es divisible entre $7$ y mayor que $40$.
+         </p>
+      </div> -->
+
+     
+
+      <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+      <p>Construye el diagrama de flujo de un algoritmo que lea cuatro números enteros y  
+      calcule e imprima la suma, producto y el promedio de estos.</p>
+      </div>
+ 
+      <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+      <p>Construye el diagrama de flujo de un algoritmo que definiendo sólo una variable, lea un número entero, 
+      lo multiplique por $2$ y a continuación  imprima el valor resultante (el cual tiene que estar 
+      almacenado en la única variable, la original).</p>
+      </div>
+    
+      
+
+      <div class="nota-box"> <h1 class="number-title"> Ejercicio</h1>
+        Construye el diagrama de flujo de un algoritmo que lea dos números $a$ y $b$ e intercambie los valores (esto es, 
+        el valor de $a$ tiene que ser el de $b$ y viceversa) pero sin definir otra variable auxiliar.  
+      </div>
+
+      <div class="nota-box"> <h1 class="number-title"> Ejercicio</h1>
+        Construye el diagrama de flujo de un algoritmo que lea las longitudes de los catetos de un triángulo rectángulo,
+        obtenga la hipotenusa e imprima su valor. <!-- y los ángulos agudos del triángulo rectángulo 
+        a partir de las longitudes de los catetos.-->
+      </div>
+
+      <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+        <p>Construye el diagrama de flujo de un algoritmo que lea tres números enteros  y determine e imprima si
+          con estas longitudes se puede formar un triángulo. En caso afirmativo, determinar si se trata de un 
+          triángulo equilatero, isosceles o escaleno. 
+        </p>
+        <p><b>Hint:</b> Recuerda la <b><em>Desigualdad del Triángulo:</em></b> </p>
+        <p>En un triángulo cualquiera se verifica que la suma de las longitudes de cualesquiera dos de 
+          sus lados es mayor que el tercer lado.
+        </p>
+        </div>
+ 
+      <!-- 
+    <div class="nota-box"><h1 class="number-title"> Estructuras de control</h1>
+      <p>En su mayoría los algoritmos definidos hasta este punto se ejecutan de modo <b>secuencial</b>, 
+        es decir, una sentencia después de otra. La ejecución comienza con la primera sentencia del algoritmo y prosigue hasta la
+        última sentencia, cada una de las cuales se ejecuta una sola vez. Esta forma de programación 
+        es adecuada para resolver problemas sencillos.
+      </p> 
+
+      <p>Este modo se caracteriza porque una acción se ejecuta detrás de otra. El flujo del programa coincide 
+        con el orden en el que se encuentran las instrucciones.  Aquí podemos encontrar operaciones de
+        <em>inicio/fin<, inicialización de variables, operaciones de asignación, cálculo, sumarización, etc. Este tipo de estructura se basa en las 5 fases de que consta todo algoritmo o programa:
+
+      Definición de variables (Declaración)
+      Inicialización de variables.
+      Lectura de datos
+      Cálculo
+      Salida</p>
+     
+        
+      <p>Sin embargo, para la resolución de problemas
+        de tipo general se necesita la capacidad de controlar cuáles son las sentencias que se
+        ejecutan y en qué momentos. 
+      </p>
+
+      <p>Las <b>estructuras de control</b> controlan el flujo de ejecución de un programa o función.
+        Las instrucciones o sentencias se organizan en tres tipos de estructuras de control 
+        que sirven para controlar el flujo de la ejecución: <em><b>secuencia</b>, <b>selección (decisión)</b> y 
+        <b>repetición</b></em>.
+      </p>
+    </div>
+ 
+     <div class="nota-box"><h1 class="number-title"> Estructuras de selección: sentencias if y switch</h1>  
+       <p>Consideraremos las estructuras selectivas o condicionales (sentencias <em>if</em> y <em>switch</em>) que controlan
+         si una sentencia o lista de sentencias se ejecutan en función del cumplimiento o no de una condición.
+        </p>
+     </div>
+ 
+     <h1 class="page-subtitle"> Practicando en PSeInt </h1>   
+ 
+ 
+         <div class="nota-box">
+           <h1 class="number-title"> Ejercicio</h1>
+         <p>Construye el diagrama de flujo de un algoritmo que solicite un número real al usuario 
+           y determine si este es positivo, en caso afirmativo  imprima "El número es positivo", de lo 
+           contrario imprima "El número es positivo".
+ 
+         </p>
+         </div>
+ 
+         <div class="nota-box">
+           <h1 class="number-title"> Ejercicio</h1>
+         <p>Construye el diagrama de flujo de un algoritmo que solicite la edad del usuario 
+           y determine si este es mayor de edad, en caso afirmativo imprima "Mayor de edad", de lo 
+           contrario imprima "Menor de edad".
+         </p>
+         </div>
+ 
+         <div class="nota-box">
+           <h1 class="number-title"> Ejercicio</h1>
+         <p>Construye el diagrama de flujo de un algoritmo que reciba un número real introducido por el usuario 
+           y determine si este es se encuentra entre $-1$ y $1$. i.e. si el número se encuentra en el intervalo $(-1,1)$,
+           de ser así imprima "VERDADERO", de lo contrario imprima "FALSO".
+         </p>
+         </div>
+ 
+         <div class="nota-box"><h1 class="number-title"> Ejercicio</h1>
+           <p>Construye un diagrama de flujo que, reciba como dato un número entero, determine
+              e imprima si el mismo es par o impar.
+           </p>       
+         </div>
+         
+         <div class="nota-box">
+           <h1 class="number-title"> Ejercicio</h1>
+           <p> Construye el diagrama de flujo  de un algoritmo  que reciba las calificaciones de un alumno del
+             SUNEO, calcule su promedio final e imprima "Felicidades, aprobaste el curso" en caso de que su calificación
+             final sea mayor  o igual que $6$ y "Lo siento, reprobaste el curso" en caso contrario.</p>
+         </div> -->
+ 
+    </body>
