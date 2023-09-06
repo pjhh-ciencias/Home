@@ -1,0 +1,225 @@
+
+<!DOCTYPE html PUBLIC >
+
+<html lang="es">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Following part is mathjax, for latex-->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <!-- This part is for jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- This part is to load main.js -->
+    <script type="text/javascript" src="../main.js"></script>
+
+    
+
+   <!-- Next part is for new coomands -->
+   <script>
+    window.MathJax = {
+      tex: {
+        macros: {
+          sen: "\\operatorname{sen}",
+          seg: ["\\overrightarrow{#1}", 1]
+        },
+        tags: "ams" /* this part is for numbered equations */
+      }
+    };
+  </script>
+
+  <!-- This part is for using single $ for latex input, instead of \(\) -->
+  <script>
+      MathJax = {
+      tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+      svg: {
+          fontCache: 'global'
+      }
+  };
+    </script>
+
+    
+    <!-- This part restart counter of cards to start at n+1 -->
+    <style>
+      /* body.number-title{
+        counter-reset: sectionCounter 1 subsectioncounter ;
+      } */
+      h1.page-title-practica{
+        counter-reset: semanaCounter 1 sectionCounter  subsectionCounter;
+      }
+    </style>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" , href="../style.css" />
+    <!-- Top Menu  -->
+    
+          
+        <header class="main-header">
+          <!-- <div class="logo_superior_umar">
+          <a href="https://www.umar.mx" target="_blank"><img src="../Imagenes/umar_logo_hd.webp" alt="Logo_UMAR" width="110%" height="auto"></a>
+          </div> -->
+          <div class="contenedor_titulo">
+            <div class="title">Formulario</div>
+          <!-- <div class="subtitle">Universidad del Mar, campus Huatulco</div>
+          <div class="subsubtitle">Licenciatura en Actuaría </div> -->
+          <!-- <div class="subsubtitle"><a href="https://www.umar.mx/web/ensenanza/licenciaturas/licenciatura_en_administracion_turistica" target="_blank">Licenciatura en Administración Turística</a> </div> -->
+          </div>
+
+      
+        </header>
+
+        <!-- <nav class="top-nav">
+          <ul>
+            <li> <a href="https://pjhh-ciencias.github.io/Home/Home.html"> Inicio  </a> </li>
+            <li> <a href="https://pjhh-ciencias.github.io/Home/Informacion_General.html"> Información </a> </li>
+            <li> <a href="https://pjhh-ciencias.github.io/Home/Notas.html"> Notas  </a> </li>
+            <li> <a href="https://pjhh-ciencias.github.io/Home/Practicas.html">Prácticas</a> </li>
+            <li> <a href="https://pjhh-ciencias.github.io/Home/Enlaces_externos.html"> Links </a> </li>
+          </ul>
+          </nav> -->
+       
+        
+        <!-- 
+          <nav class="small-nav" align=right>
+            <button onclick="myFunction()">Claro/Obscuro 
+          </nav> 
+        -->
+
+      <!-- This part is for title in tab-->
+            
+      <title> Formulario</title>
+      </head>  
+
+
+
+  <body class="fondo-body" ><h1 class="page-title-practica"></h1>   
+
+    <div class="nota-box"><h1 class="number-title-practica"> Sumas   </h1>
+      <p>
+        <ol class="two-column">
+          <li>$\displaystyle{\sum_{k=1}^{n} k = \frac{n(n+1)}{2}}$</li>
+          <li>$\displaystyle{\sum_{k=1}^{n} k^{2} = \frac{n(n+1)(2n+1)}{6}}$</li>
+          <li>$\displaystyle{\sum_{k=1}^{n} k^{3} = \frac{n^{2}(n+1)^{2}}{4}}$</li>
+          <li>$\displaystyle{\sum_{k=1}^{n} k^{4} = \frac{n(n+1)(2n + 1)(3n^{2} +3n -1)}{30}}$</li>
+
+        </ol>
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Logaritmos   </h1>
+      <p>
+        <ol class="two-column">
+          <li>$\ln(1) = 0$</li>
+          <li>$\ln(a^{r}) = r\ln(a),\,\, \forall r \in  \mathbb{R}$</li>
+          <li>$\ln(1) = 0$</li>
+          <li>$\log{a}_{a} = 1$</li>
+          <li>$\ln(x)= \log_{e}(x)$</li>
+          <li>$\ln(ab) = \ln(a) + \ln(b)$</li>   
+          <li>$\ln\left( \displaystyle{\frac{a}{b} }\right) = \ln(a) - \ln(b)$</li>
+          <li>$\displaystyle{\log_{b}x} = \frac{\log_{a} (x)}{\log_{a} (b)}$</li>
+        </ol>
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Desigualdad de Korovkin </h1>
+      <p>Si $x_{1}, x_{2}, \ldots, x_{n} \in \mathbb{R}_{+}$ satisfacen $x_{1} \cdots x_{n} = 1$, 
+        entonces $$x_{1} + x_{2} +  \cdots + x_{n} \geq n.$$ La igualdad se da si y sólo si $x_{1} = x_{2} = \ldots = x_{n} = 1$</p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Desigualdad de Korovkin </h1>
+      <p>Si $x  \in [0,1)$, entonces 
+        $$1-x \leq e^{-x}$$
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Desigualdad media Aritmética - media Geométrica </h1>
+      <p>Si $x_{1}, x_{2}, \ldots, x_{n} \in \mathbb{R}_{+}$, entonces 
+        $$\sqrt{x_{1} \cdot x_{2} \cdots  x_{n}} \leq \frac{x_{1} + x_{2} +  \cdots + x_{n}}{n}.$$ 
+        La igualdad se da si y sólo si $x_{1} = x_{2} = \ldots = x_{n}$</p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Desigualdad media Cuadrática - media Aritmética</h1>
+      <p>Si $x_{1}, x_{2}, \ldots, x_{n} \in \mathbb{R}_{+}$, entonces 
+        $$ \frac{x_{1} + x_{2} +  \cdots + x_{n}}{n} \leq \sqrt{\frac{x_{1}^2 + x_{2}^2 + \cdots + x_{n}^2}{n}} .$$ 
+        La igualdad se da si y sólo si $x_{1} = x_{2} = \ldots = x_{n}$</p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Desigualdad media Armónica - media Aritmética - media Geométrica </h1>
+      <p>Si $x_{1}, x_{2}, \ldots, x_{n} \in \mathbb{R}_{+}$, entonces 
+        $$\frac{n}{\displaystyle{\frac{1}{x_{1}} + \frac{1}{x_{2}} + \cdots + \frac{1}{x_{n} }}} \leq \sqrt[n]{x_{1} \cdot x_{2} \cdots  x_{n}} \leq \frac{x_{1} + x_{2} +  \cdots + x_{n}}{n}.$$ 
+        La igualdad se da si y sólo si $x_{1} = x_{2} = \ldots = x_{n}$</p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Desigualdad de Cauchy-Schwarz </h1>
+      <p>Si $x_{1}, x_{2}, \ldots, x_{n}, y_{1}, y_{2}, \ldots, y_{n} \in \mathbb{R}$, entonces 
+        $$\left| \sum_{i=1}^{n} x_{i} y_{i} \right| \leq \left( \sum_{i=1}^{n} x_{i}^{2} \right)^{\frac{1}{2}} \left( \sum_{i=1}^{n} y_{i}^{2} \right)^{\frac{1}{2}} $$ 
+      </p>
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Lema de Titu </h1>
+      <p>Si $x_{1}, x_{2}, \ldots, x_{n}, y_{1}, y_{2}, \ldots, y_{n} \in \mathbb{R}_{+}$, entonces 
+        $$\frac{\displaystyle{\left(\sum_{i=1}^{n} x_{i} \right)^{2}}}{\displaystyle{\sum_{i=1}^{n} y_{i}} }  \leq \sum_{i=1}^{n} \frac{x_{i}^{2}}{y_{i}} $$ 
+      </p>
+      <p><b>Hint:</b>  Consecuencia de la Desigualdad de Cauchy-Schwarz: $x_{i}^{'}:= \frac{x_{i}}{\sqrt{y_{i}}}$ y $y_{i}^{'} = \sqrt{y_{i}}$</p>
+        
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica">  </h1>
+      <p>
+        <ol class="two-column">
+          <li>$\displaystyle{\lim_{x \to 0} \frac{\mathrm{Sen}(x)}{x}} = 1$</li>
+          <li>$\displaystyle{\lim_{x \to 0} \frac{\mathrm{Cos}(x) - 1}{x}} = 0$</li>
+        </ol>
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Identidades trigonométricas </h1>
+      <p>
+        <ol class="three-column">
+          <li>$\mathrm{sen}(x) \cdot \mathrm{cos}(x) = 1 $ </li>
+          <li>$\mathrm{cos}(x) \cdot \mathrm{sec}(x) = 1 $ </li>
+          <li>$\mathrm{tan}(x) \cdot \mathrm{ctg}(x) = 1 $ </li>
+        </ol>
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Identidades trigonométricas </h1>
+      <p>
+        <ol class="two-column">
+          <li>$\mathrm{tan}(x) = \displaystyle{\frac{\mathrm{sen}(x)}{\mathrm{cos}(x)}} $ </li>
+          <li>$\mathrm{ctg}(x) = \displaystyle{\frac{\mathrm{cos}(x)}{\mathrm{sen}(x)}} $ </li>
+        </ol>
+      </p>
+    </div>
+
+    <div class="nota-box"><h1 class="number-title-practica"> Identidades trigonométricas </h1>
+      <p>
+        <ol class="two-column">
+          <li>$1 + \mathrm{tan}^{2}(x) = \mathrm{sec}^{2}(x) $ </li><br>
+          <li>$1 + \mathrm{ctg}^{2}(x) = \mathrm{csc}^{2}(x) $ </li>
+          <li>$\mathrm{sen}^{2}(x) = \displaystyle{\frac{1 - \mathrm{cos}(2x)}{2}}$ </li>
+          <li>$\mathrm{cos}^{2}(x) = \displaystyle{\frac{1 + \mathrm{cos}(2x)}{2}}$ </li>
+        </ol>
+      </p>
+    </div>
+
+
+    <div class="nota-box"><h1 class="number-title-practica"> Identidades trigonométricas </h1>
+      <p>
+        <ol>
+          <li>$\mathrm{sen}(x \pm y ) = \mathrm{sen}(x) \mathrm{cos}(y) \pm \mathrm{cos}(x)\mathrm{sen}(y) $ </li><br>
+          <li>$\mathrm{cos}(x \pm y ) = \mathrm{cos}(x) \mathrm{cos}(y) \mp \mathrm{sen}(x)\mathrm{sen}(x) $ </li><br>
+          <li>$\mathrm{tan}(x \pm y ) = \displaystyle{\frac{\mathrm{tan}(x) \pm \mathrm{tan}(y)}{1 \mp \mathrm{tan}(x) \mathrm{tan}(y)}}$ </li><br>
+          <li>$\mathrm{sen}(2x) = 2\mathrm{sen}(x) \mathrm{cos}(y)$ </li><br>
+          <li>$\mathrm{cos}(2x) = \mathrm{cos}^{2}(x) - \mathrm{sen}^{2}(x) $ </li><br>
+
+        </ol>
+      </p>
+    </div>
+
+</body>
